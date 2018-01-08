@@ -115,7 +115,8 @@ function getMovie() {
         movieSearch = "Mr. Nobody";
     }
 
-    request("http://omdbapi.com/?t=" + movieSearch + "&y=&plot=short&tomatoes=true&apikey=trilogy", function (error, response, body) {
+    // API call
+    request("http://omdbapi.com/?t=" + movieSearch + "&y=&plot=short&apikey=trilogy", function (error, response, body) {
 
         if (!error && response.statusCode === 200) {
 
@@ -127,33 +128,59 @@ function getMovie() {
             console.log(JSON.parse(body).Language);
             console.log(JSON.parse(body).Plot);
             console.log(JSON.parse(body).Actors);
-            console.log(JSON.parse(body).tomatoRating);
+            console.log(JSON.parse(body).Ratings[1].Value);
 
             // appending to log.txt
-            fs.appendFile("log.txt", "Title: " + JSON.parse(body).Title + "\n", function (error){
+            fs.appendFile("log.txt", "Title: " + JSON.parse(body).Title + "\n", function (error) {
                 if (error) throw (error);
             });
-            fs.appendFile("log.txt", "Year: " + JSON.parse(body).Year + "\n", function (error){
+            fs.appendFile("log.txt", "Year: " + JSON.parse(body).Year + "\n", function (error) {
                 if (error) throw (error);
             });
-            fs.appendFile("log.txt", "IMDB Rating: " + JSON.parse(body).imdbRating + "\n", function (error){
+            fs.appendFile("log.txt", "IMDB Rating: " + JSON.parse(body).imdbRating + "\n", function (error) {
                 if (error) throw (error);
             });
-            fs.appendFile("log.txt", "Country: " + JSON.parse(body).Country + "\n", function (error){
+            fs.appendFile("log.txt", "Country: " + JSON.parse(body).Country + "\n", function (error) {
                 if (error) throw (error);
             });
-            fs.appendFile("log.txt", "Language: " + JSON.parse(body).Language + "\n", function (error){
+            fs.appendFile("log.txt", "Language: " + JSON.parse(body).Language + "\n", function (error) {
                 if (error) throw (error);
             });
-            fs.appendFile("log.txt", "Plot: " + JSON.parse(body).Plot + "\n", function (error){
+            fs.appendFile("log.txt", "Plot: " + JSON.parse(body).Plot + "\n", function (error) {
                 if (error) throw (error);
             });
-            fs.appendFile("log.txt", "Actors: " + JSON.parse(body).Actors + "\n", function (error){
+            fs.appendFile("log.txt", "Actors: " + JSON.parse(body).Actors + "\n", function (error) {
                 if (error) throw (error);
             });
-            fs.appendFile("log.txt", "Rotten Tomatoes Rating: " + JSON.parse(body).tomatoRating + "\n", function (error){
+            fs.appendFile("log.txt", "Rotten Tomatoes Rating: " + JSON.parse(body).Ratings[1].Value + "\n", function (error) {
                 if (error) throw (error);
             });
         }
+    })
+}
+
+// Do what it say function
+
+function doWhat() {
+
+    fs.readFile("random.txt", "utf8", function (error, data) {
+        var dataArr = data.split(",");
+        var action = dataArr[0];
+        switch (action) {
+            case "my-tweets":
+                getTwitter();
+                break;
+            case "spotify-this-song":
+                var search = "";
+                search = dataArr[1];
+                getSpotify(search);
+                break;
+            case "movie-this":
+                var search = "";
+                search = dataArr[1];
+                getMovie(search);
+                break;
+        }
+        console.log(search);
     })
 }

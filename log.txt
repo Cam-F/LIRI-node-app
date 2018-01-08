@@ -16,3 +16,58 @@ Country: USA
 Plot: A young police officer must prevent a bomb exploding aboard a city bus by keeping its speed above 50 mph.
 Actors: Keanu Reeves, Dennis Hopper, Sandra Bullock, Joe Morton
 Rotten Tomatoes Rating: N/A
+----- Spotify -----
+Artist: Ace of Base
+Song: The Sign
+Album: The Sign (US Album) [Remastered]
+Preview Link: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=44a477d02589470c8f5a2dabb2e735cf
+----- Spotify -----
+Artist: Ace of Base
+Preview Link: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=44a477d02589470c8f5a2dabb2e735cf
+Song: The Sign
+Album: The Sign (US Album) [Remastered]
+----- Spotify -----
+Song: The Sign
+Artist: Ace of Base
+Preview Link: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=44a477d02589470c8f5a2dabb2e735cf
+Album: The Sign (US Album) [Remastered]
+Title: Mr. Nobody
+Year: 2009
+IMDB Rating: 7.9
+Language: English, Mohawk
+Country: Belgium, Germany, Canada, France, USA, UK
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+Rotten Tomatoes Rating: N/A
+Title: Mr. Nobody
+Year: 2009
+Language: English, Mohawk
+Country: Belgium, Germany, Canada, France, USA, UK
+IMDB Rating: 7.9
+Rotten Tomatoes Rating: N/A
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Title: Speed
+Year: 1994
+IMDB Rating: 7.2
+Country: USA
+Language: English
+Plot: A young police officer must prevent a bomb exploding aboard a city bus by keeping its speed above 50 mph.
+Rotten Tomatoes Rating: undefined
+Actors: Keanu Reeves, Dennis Hopper, Sandra Bullock, Joe Morton
+Title: Mr. Nobody
+Year: 2009
+IMDB Rating: 7.9
+Country: Belgium, Germany, Canada, France, USA, UK
+Language: English, Mohawk
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+Rotten Tomatoes Rating: 66%
+Title: Mr. Nobody
+Year: 2009
+IMDB Rating: 7.9
+Country: Belgium, Germany, Canada, France, USA, UK
+Language: English, Mohawk
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Rotten Tomatoes Rating: 66%
