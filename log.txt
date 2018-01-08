@@ -1,25 +1,18 @@
 ----- My Tweets -----
+for sure not a test client twitter
 Spent way too much time procrastinating on this deadline
 This is definitely not a test
-for sure not a test client twitter
 ----- Spotify -----
+Song: Out of It
 Artist: The Story So Far
-Song: Heavy Gloom
-Preview Link: https://p.scdn.co/mp3-preview/0ffe022fb4fd270255c5c21a1823d535e4e49377?cid=44a477d02589470c8f5a2dabb2e735cf
-Album: The Story So Far
-
------ Spotify -----
-Artist: The Story So Far
-Album: The Story So Far
-Preview Link: https://p.scdn.co/mp3-preview/0ffe022fb4fd270255c5c21a1823d535e4e49377?cid=44a477d02589470c8f5a2dabb2e735cf
-Song: Heavy Gloom
------ Spotify -----
-Artist: The Story So Far
-Album: The Story So Far
-Song: Heavy Gloom
-Preview Link: https://p.scdn.co/mp3-preview/0ffe022fb4fd270255c5c21a1823d535e4e49377?cid=44a477d02589470c8f5a2dabb2e735cf
------ Spotify -----
-Song: Heavy Gloom
-Artist: The Story So Far
-Preview Link: https://p.scdn.co/mp3-preview/0ffe022fb4fd270255c5c21a1823d535e4e49377?cid=44a477d02589470c8f5a2dabb2e735cf
-Album: The Story So Far
+Album: Out of It
+Preview Link: https://p.scdn.co/mp3-preview/e8f5203d368c8ff22f71bdf19ea4db79d0ec9dec?cid=44a477d02589470c8f5a2dabb2e735cf
+----- Movie -----
+Title: Speed
+IMDB Rating: 7.2
+Year: 1994
+Language: English
+Country: USA
+Plot: A young police officer must prevent a bomb exploding aboard a city bus by keeping its speed above 50 mph.
+Actors: Keanu Reeves, Dennis Hopper, Sandra Bullock, Joe Morton
+Rotten Tomatoes Rating: N/A

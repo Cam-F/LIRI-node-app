@@ -106,3 +106,54 @@ function getSpotify() {
         });
     });
 }
+
+// Movie function
+function getMovie() {
+    var movieSearch = search;
+
+    if (movieSearch === "") {
+        movieSearch = "Mr. Nobody";
+    }
+
+    request("http://omdbapi.com/?t=" + movieSearch + "&y=&plot=short&tomatoes=true&apikey=trilogy", function (error, response, body) {
+
+        if (!error && response.statusCode === 200) {
+
+            // console.log(JSON.parse(body));
+            console.log(JSON.parse(body).Title);
+            console.log(JSON.parse(body).Year);
+            console.log(JSON.parse(body).imdbRating);
+            console.log(JSON.parse(body).Country);
+            console.log(JSON.parse(body).Language);
+            console.log(JSON.parse(body).Plot);
+            console.log(JSON.parse(body).Actors);
+            console.log(JSON.parse(body).tomatoRating);
+
+            // appending to log.txt
+            fs.appendFile("log.txt", "Title: " + JSON.parse(body).Title + "\n", function (error){
+                if (error) throw (error);
+            });
+            fs.appendFile("log.txt", "Year: " + JSON.parse(body).Year + "\n", function (error){
+                if (error) throw (error);
+            });
+            fs.appendFile("log.txt", "IMDB Rating: " + JSON.parse(body).imdbRating + "\n", function (error){
+                if (error) throw (error);
+            });
+            fs.appendFile("log.txt", "Country: " + JSON.parse(body).Country + "\n", function (error){
+                if (error) throw (error);
+            });
+            fs.appendFile("log.txt", "Language: " + JSON.parse(body).Language + "\n", function (error){
+                if (error) throw (error);
+            });
+            fs.appendFile("log.txt", "Plot: " + JSON.parse(body).Plot + "\n", function (error){
+                if (error) throw (error);
+            });
+            fs.appendFile("log.txt", "Actors: " + JSON.parse(body).Actors + "\n", function (error){
+                if (error) throw (error);
+            });
+            fs.appendFile("log.txt", "Rotten Tomatoes Rating: " + JSON.parse(body).tomatoRating + "\n", function (error){
+                if (error) throw (error);
+            });
+        }
+    })
+}
