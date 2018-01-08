@@ -1,0 +1,30 @@
+{
+  "name": "liri",
+  "version": "1.0.0",
+  "description": "language interpretation and recognition interface, using twitter / spotify / request / dotenv packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cam-F/LIRI-node-app.git"
+  },
+  "keywords": [
+    "LIRI",
+    "spotify",
+    "twitter"
+  ],
+  "author": "Cameron Fuller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cam-F/LIRI-node-app/issues"
+  },
+  "homepage": "https://github.com/Cam-F/LIRI-node-app#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.83.0",
+    "twitter": "^1.7.1"
+  }
+}
